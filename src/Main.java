@@ -1,11 +1,11 @@
-import modelo.Cliente;
-import modelo.ContaCorrente;
+import modelo.Disciplina;
+import modelo.Professor;
 
 void main() {
 
-    Cliente cliente = new Cliente("111.111.111-01",
-        "Paulo", LocalDate.of(2000,1,1));
-    ContaCorrente contaCorrente = new ContaCorrente(cliente,1,
-            1);
+    Disciplina disciplina = new Disciplina("POO", "ADS",
+            new Professor("111.111.111-01", "Paulo",
+                    LocalDate.of(2000,1,1)));
+
 
 }

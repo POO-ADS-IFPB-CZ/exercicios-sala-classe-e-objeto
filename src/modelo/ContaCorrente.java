@@ -4,13 +4,13 @@ import java.time.LocalTime;
 
 public class ContaCorrente {
 
-    private String titular;
+    private Cliente cliente;
     private int agencia;
     private int numero;
     private double saldo;
 
-    public ContaCorrente(String titular, int agencia, int numero){
-        this.titular = titular;
+    public ContaCorrente(Cliente cliente, int agencia, int numero){
+        this.cliente = cliente;
         this.agencia = agencia;
         this.numero = numero;
     }
